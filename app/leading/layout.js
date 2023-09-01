@@ -1,7 +1,7 @@
 import React from "react";
 
-const ProgramLayout = ({ children }) => {
+const StockLayout = ({ children }) => {
   return <div className="flex-1">{children}</div>;
 };
 
-export default ProgramLayout;
+export default StockLayout;
