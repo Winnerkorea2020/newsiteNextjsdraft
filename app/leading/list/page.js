@@ -1,8 +1,8 @@
 import ListCard from "@/components/ListCard";
-import { stockList } from "@/constant";
+import { leadingList } from "@/constant";
 
-const StockList = () => {
-  return <ListCard title={`The Stock List`} price={stockList} />;
+const LeadingList = () => {
+  return <ListCard title={`The Stock List`} price={leadingList} />;
 };
 
-export default StockList;
+export default LeadingList;

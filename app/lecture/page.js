@@ -1,7 +1,11 @@
-import React from "react";
+import About from "@/components/About";
 
 const LecturePage = () => {
-  return <div className="flex-1">Lecture</div>;
+  return (
+    <div>
+      <About />
+    </div>
+  );
 };
 
 export default LecturePage;

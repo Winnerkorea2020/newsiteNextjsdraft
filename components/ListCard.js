@@ -5,7 +5,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function ListCard({ title, price }) {
   return (
-    <div class="container mx-auto px-6">
+    <div className="container mx-auto px-6">
       <h3 className="text-gray-600 text-2xl font-medium">{title}</h3>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
         {price.map((items, index) => (
@@ -25,6 +25,7 @@ export default function ListCard({ title, price }) {
               </div>
               <div className="px-5 py-3">
                 <h3 className="text-gray-700 uppercase">{items.month}</h3>
+                <p>{items.description}</p>
                 <span className="text-gray-500 mt-2">{items.pay}</span>
               </div>
             </div>
