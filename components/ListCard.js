@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { mainStockTradingProgram } from "@/constant";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function ListCard({ title, price }) {
   return (
@@ -19,7 +19,7 @@ export default function ListCard({ title, price }) {
                 />
                 <div className="absolute">
                   <button className="p-2.5 flex items-center justify-center rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500 text-center ">
-                    <AiOutlineShoppingCart size={20} />
+                    <AiOutlineArrowRight size={20} />
                   </button>
                 </div>
               </div>
