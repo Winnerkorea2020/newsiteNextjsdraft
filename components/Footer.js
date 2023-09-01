@@ -28,7 +28,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="#" className="hover:underline">
-                Contact
+                Notice
               </Link>
             </li>
           </ul>
