@@ -119,25 +119,6 @@ export const stockList = [
   { id: "1016", title: "", month: "", pay: "", url: "list/16" },
 ];
 
-export const programList = [
-  { id: "1001", title: "", month: "", pay: "", url: "list/1" },
-  { id: "1002", title: "", month: "", pay: "", url: "list/2" },
-  { id: "1003", title: "", month: "", pay: "", url: "list/3" },
-  { id: "1004", title: "", month: "", pay: "", url: "list/4" },
-  { id: "1005", title: "", month: "", pay: "", url: "list/5" },
-  { id: "1006", title: "", month: "", pay: "", url: "list/6" },
-  { id: "1007", title: "", month: "", pay: "", url: "list/7" },
-  { id: "1008", title: "", month: "", pay: "", url: "list/8" },
-  { id: "1009", title: "", month: "", pay: "", url: "list/9" },
-  { id: "1010", title: "", month: "", pay: "", url: "list/10" },
-  { id: "1011", title: "", month: "", pay: "", url: "list/11" },
-  { id: "1012", title: "", month: "", pay: "", url: "list/12" },
-  { id: "1013", title: "", month: "", pay: "", url: "list/13" },
-  { id: "1014", title: "", month: "", pay: "", url: "list/14" },
-  { id: "1015", title: "", month: "", pay: "", url: "list/15" },
-  { id: "1016", title: "", month: "", pay: "", url: "list/16" },
-];
-
 export const lectureList = [
   { id: "1001", title: "", month: "", pay: "", url: "list/1" },
   { id: "1002", title: "", month: "", pay: "", url: "list/2" },
