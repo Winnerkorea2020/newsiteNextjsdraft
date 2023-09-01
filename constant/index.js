@@ -54,17 +54,17 @@ export const navLinks = [
 ];
 
 export const mainStockTradingProgram = [
-  { id: "1", month: "1 Month", pay: "$380", url: "/" },
-  { id: "2", month: "3 Months", pay: "$1,140", url: "/" },
-  { id: "3", month: "6 Months", pay: "$2,670", url: "/" },
-  { id: "4", month: "12 Months", pay: "$4,540", url: "/" },
+  { id: "1", month: "1 Month", pay: "$380", url: "/stock/list/1" },
+  { id: "2", month: "3 Months", pay: "$1,140", url: "/stock/list/2" },
+  { id: "3", month: "6 Months", pay: "$2,670", url: "/stock/list/3" },
+  { id: "4", month: "12 Months", pay: "$4,540", url: "/stock/list/4" },
 ];
 
 export const mainCoinTradingProgram = [
-  { id: "1", month: "1 Month", pay: "$380", url: "/" },
-  { id: "2", month: "3 Months", pay: "$1,140", url: "/" },
-  { id: "3", month: "6 Months", pay: "$2,670", url: "/" },
-  { id: "4", month: "12 Months", pay: "$4,540", url: "/" },
+  { id: "1", month: "1 Month", pay: "$380", url: "/coin/list/1" },
+  { id: "2", month: "3 Months", pay: "$1,140", url: "/coin/list/2" },
+  { id: "3", month: "6 Months", pay: "$2,670", url: "/coin/list/3" },
+  { id: "4", month: "12 Months", pay: "$4,540", url: "/coin/list/4" },
 ];
 
 export const mainLeading = [

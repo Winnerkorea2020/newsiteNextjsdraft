@@ -40,7 +40,6 @@ const Cart = () => {
                     <input
                       type="radio"
                       className="form-radio h-5 w-5 text-blue-600"
-                      checked
                     />
                     <span className="ml-2 text-sm text-gray-700">
                       MS Delivery
