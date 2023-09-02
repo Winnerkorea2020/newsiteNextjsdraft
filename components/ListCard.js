@@ -11,7 +11,7 @@ export default function ListCard({ title, price }) {
         {price.map((items, index) => (
           <Link key={index} href={items.url} className="cursor-pointer">
             <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-              <div className="flex items-end justify-end h-64 w-full relative">
+              <div className="flex items-end justify-end h-80 w-full relative">
                 <Image
                   src={`/${items.img}`}
                   fill
