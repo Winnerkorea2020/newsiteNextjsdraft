@@ -12,56 +12,62 @@ import {
 const LectureAbout = () => {
   return (
     <div className="container mx-auto px-6">
-      <div className="relative">
+      <div className="relative min-h-[580px]">
         <Image
           className=""
           src={`/miguel-henriques--8atMWER8bI-unsplash.jpg`}
-          width={2000}
-          height={2000}
-        ></Image>
-        <p className="absolute mx-auto w-full -top-2 font-bold text-gray-50 text-lg tracking-tighter sm:text-2xl text-center mt-16 z-20 ">
-          A space to learn about investing that is right for you <br /> I do it
-          every day.
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-5 lg:gap-8 xl:gap-14 mt-3 text-gray-700">
-        <div className="flex md:flex-col items-center gap-2 ">
-          <BiBitcoin
-            size={50}
-            className=" border-2 border-gray-100 rounded p-2"
-          />
-          <span className="font-ligt">Digital assets</span>
-        </div>
-        <div className="flex md:flex-col items-center gap-2 ">
-          <BiCoinStack
-            size={50}
-            className=" border-2 border-gray-100 rounded p-2"
-          />
-          <span className="font-ligt">Stock</span>
-        </div>
-        <div className="flex md:flex-col items-center gap-2 ">
-          <BiWorld
-            size={50}
-            className=" border-2 border-gray-100 rounded p-2"
-          />
-          <span className="font-ligt">Foreign Stocks</span>
-        </div>
-        <div className="flex md:flex-col items-center gap-2 ">
-          <BiBuildingHouse
-            size={50}
-            className=" border-2 border-gray-100 rounded p-2"
-          />
-          <span className="font-ligt">Real estate</span>
-        </div>
-        <div className="flex md:flex-col items-center gap-2 ">
-          <BiNews size={50} className=" border-2 border-gray-100 rounded p-2" />
-          <span className="font-ligt">New Tech</span>
+          fill={true}
+        />
+        <div className=" absolute flex flex-col justify-between h-full top-0 px-5">
+          <div className=" flex flex-col justify-between h-full">
+            <h1 className="text-3xl text-center pt-20 font-bold text-white sm:text-4xl md:text-[45px] tracking-tighter">
+              A space to learn about investing that is right for you I do it
+              every day.
+            </h1>
+            <div className="grid grid-cols-1 pb-20 md:grid-cols-5 gap-2 md:gap-5 lg:gap-8 xl:gap-14 text-gray-50">
+              <div className="flex md:flex-col items-center gap-2 ">
+                <BiBitcoin
+                  size={50}
+                  className=" border-2 border-gray-100 rounded p-2"
+                />
+                <span className="font-ligt">Digital assets</span>
+              </div>
+              <div className="flex md:flex-col items-center gap-2 ">
+                <BiCoinStack
+                  size={50}
+                  className=" border-2 border-gray-100 rounded p-2"
+                />
+                <span className="font-ligt">Stock</span>
+              </div>
+              <div className="flex md:flex-col items-center gap-2 ">
+                <BiWorld
+                  size={50}
+                  className=" border-2 border-gray-100 rounded p-2"
+                />
+                <span className="font-ligt">Foreign Stocks</span>
+              </div>
+              <div className="flex md:flex-col items-center gap-2 ">
+                <BiBuildingHouse
+                  size={50}
+                  className=" border-2 border-gray-100 rounded p-2"
+                />
+                <span className="font-ligt">Real estate</span>
+              </div>
+              <div className="flex md:flex-col items-center gap-2 ">
+                <BiNews
+                  size={50}
+                  className=" border-2 border-gray-100 rounded p-2"
+                />
+                <span className="font-ligt">New Tech</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className="w-full mx-auto text-center my-10">
         <h2 className="text-3xl font-bold  text-black  sm:text-4xl md:text-[45px]">
-          Special point 1. Lecture structure
+          Special point. Lecture structure
         </h2>
       </div>
 
