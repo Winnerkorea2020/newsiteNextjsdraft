@@ -15,8 +15,6 @@ const ProductCheckOut = () => {
         </div>
 
         <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-          <h3 className="text-gray-700 uppercase text-lg">Item Prime</h3>
-          <span className="text-gray-500 mt-3 font-semibold">$125</span>
           <ProductDetailDescription />
         </div>
       </div>

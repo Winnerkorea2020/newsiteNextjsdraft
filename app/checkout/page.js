@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="flex-1">
       <div className="container mx-auto px-6">
-        <div className="">
+        <div className="mt-8">
           <div className="border-b pb-8">
             <ProductCheckOut />
           </div>
