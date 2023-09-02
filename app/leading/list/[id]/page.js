@@ -13,8 +13,6 @@ const page = () => {
     <div>
       <Products />
       <div className="container mx-auto px-6 mt-16 ">
-        <h3 className="text-gray-600 text-2xl font-medium">더 많은 강의보기</h3>
-
         <MainListCard
           title={`The Stock trading Program`}
           price={mainStockTradingProgram}

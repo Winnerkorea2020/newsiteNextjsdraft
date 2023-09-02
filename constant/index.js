@@ -53,6 +53,33 @@ export const navLinks = [
   },
 ];
 
+export const bannerMainDescription = [
+  {
+    id: "1",
+    title: "Stability",
+    description: "Foreign Futures Trading 100% Safe and stability",
+    img: "brett-zeck-eyfMgGvo9PA-unsplash.jpg",
+  },
+  {
+    id: "2",
+    title: "Security",
+    description: "Membership Security Guarantee System",
+    img: "jason-dent-3wPJxh-piRw-unsplash.jpg",
+  },
+  {
+    id: "3",
+    title: "Stability",
+    description: "Free entry and withdrawal available",
+    img: "taylor-vick-M5tzZtFCOfs-unsplash.jpg",
+  },
+  {
+    id: "4",
+    title: "Investment",
+    description: "The investment stock and bond chart.",
+    img: "greg-rakozy-oMpAz-DN-9I-unsplash.jpg",
+  },
+];
+
 export const mainStockTradingProgram = [
   {
     id: "1",
@@ -304,5 +331,102 @@ export const leadingList = [
     shopping: "E-mail",
     img: "target_leading_4.png",
     url: "list/4",
+  },
+];
+
+export const tickerItems = [
+  {
+    url: "/coin",
+    title:
+      "커뮤니티 기반 빌더 육성 프로그램 릴레이어 인큐베이터 2023(Relayers Incubator 2023) 진행  ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "가상자산 거래소 비트렉스(Bittrex), SEC와 300억 원대 벌금 합의  ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "7월 미국 소비자물가지수(CPI) ",
+    contenst: "",
+    tag: "CPA",
+  },
+  {
+    url: "/",
+    title: "코인페스트 아시아 2023(Coinfest Asia 2023) 개최 예정  ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "9월 2일, SEC의 블랙록 비트코인 현물 ETF 답변 기한 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title:
+      "Bitwise와 ProShares, 비트코인 및 이더리움 선물 ETF 신청서 추가 제출 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "미래에셋 글로벌 X, 비트코인 선물 ETF 준비 ",
+    contenst: "",
+    tag: "ETF",
+  },
+  {
+    url: "/",
+    title: "코인페스트 아시아 2023(Coinfest Asia 2023) 개최 예정  ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "9월 2일, SEC의 블랙록 비트코인 현물 ETF 답변 기한 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title:
+      "Bitwise와 ProShares, 비트코인 및 이더리움 선물 ETF 신청서 추가 제출 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "미래에셋 글로벌 X, 비트코인 선물 ETF 준비 ",
+    contenst: "",
+    tag: "ETF",
+  },
+  {
+    url: "/",
+    title: "코인페스트 아시아 2023(Coinfest Asia 2023) 개최 예정  ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "9월 2일, SEC의 블랙록 비트코인 현물 ETF 답변 기한 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title:
+      "Bitwise와 ProShares, 비트코인 및 이더리움 선물 ETF 신청서 추가 제출 ",
+    contenst: "",
+    tag: "BIT",
+  },
+  {
+    url: "/",
+    title: "미래에셋 글로벌 X, 비트코인 선물 ETF 준비 ",
+    contenst: "",
+    tag: "ETF",
   },
 ];

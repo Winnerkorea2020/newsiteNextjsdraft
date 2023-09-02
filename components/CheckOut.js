@@ -5,7 +5,7 @@ const CheckOut = () => {
     <div>
       <div className="space-y-4">
         <div>
-          <label className="block text-sm font-medium mb-1" for="card-nr">
+          <label className="block text-sm font-medium mb-1" htmlFor="card-nr">
             Card Number <span className="text-red-500">*</span>
           </label>
           <input
@@ -18,7 +18,10 @@ const CheckOut = () => {
 
         <div className="flex space-x-4">
           <div className="flex-1">
-            <label className="block text-sm font-medium mb-1" for="card-expiry">
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="card-expiry"
+            >
               Expiry Date <span className="text-red-500">*</span>
             </label>
             <input
@@ -29,7 +32,10 @@ const CheckOut = () => {
             />
           </div>
           <div className="flex-1">
-            <label className="block text-sm font-medium mb-1" for="card-cvc">
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="card-cvc"
+            >
               CVC <span className="text-red-500">*</span>
             </label>
             <input
@@ -42,7 +48,7 @@ const CheckOut = () => {
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1" for="card-name">
+          <label className="block text-sm font-medium mb-1" htmlFor="card-name">
             Name on Card <span className="text-red-500">*</span>
           </label>
           <input
@@ -54,7 +60,10 @@ const CheckOut = () => {
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1" for="card-email">
+          <label
+            className="block text-sm font-medium mb-1"
+            htmlFor="card-email"
+          >
             Email <span className="text-red-500">*</span>
           </label>
           <input
