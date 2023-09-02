@@ -1,9 +1,9 @@
 import { AiOutlineCheck } from "react-icons/ai";
 
-const Card = () => {
+const Card = ({ title, description }) => {
   return (
     <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow ">
-      <h3 className="text-2xl font-semibold">Start</h3>
+      <h3 className="text-2xl font-semibold">{title}</h3>
       <p className="font-light text-gray-500 sm:text-lg">
         Best option for personal use & for your next project.
       </p>

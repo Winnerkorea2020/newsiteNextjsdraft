@@ -111,8 +111,8 @@ const About = () => {
           Designed for business teams like yours
         </h2>
         <p className="mb-5 font-light text-gray-500 sm:text-xl">
-          Here at Prime Play we focus on markets where technology, innovation,
-          and capital can unlock long-term value and drive economic growth.
+          Here at TY-Play we focus on markets where technology, innovation, and
+          capital can unlock long-term value and drive economic growth.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

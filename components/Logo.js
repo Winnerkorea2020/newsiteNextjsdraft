@@ -29,7 +29,7 @@ export default function Logo() {
         href="/"
         className="w-full text-gray-700 md:text-center text-2xl font-semibold tracking-tighter"
       >
-        Prime Play
+        TY-Play
       </Link>
       <div className="flex items-center justify-end w-full"></div>
     </div>

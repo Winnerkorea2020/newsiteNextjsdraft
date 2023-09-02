@@ -1,11 +1,11 @@
-import About from "@/components/About";
+import CoinProgramAbout from "@/components/CoinProgramAbout";
 
 const CoinPage = () => {
   return (
     <div>
-      <About />
+      <CoinProgramAbout />
     </div>
   );
 };
 
-export default CoinPage;
+export default CoinProgramAbout;

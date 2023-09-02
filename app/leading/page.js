@@ -1,9 +1,9 @@
-import About from "@/components/About";
+import LeadingAbout from "@/components/LeadingAbout";
 
 const LeadingPage = () => {
   return (
     <div>
-      <About />
+      <LeadingAbout />
     </div>
   );
 };

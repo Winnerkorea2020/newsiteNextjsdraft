@@ -1,9 +1,9 @@
-import About from "@/components/About";
+import StoctProgramAbout from "@/components/StoctProgramAbout";
 
 const StockPage = () => {
   return (
     <div>
-      <About />
+      <StoctProgramAbout />
     </div>
   );
 };
