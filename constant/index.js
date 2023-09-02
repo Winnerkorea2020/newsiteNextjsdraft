@@ -181,7 +181,7 @@ export const coinList = [
     month: "1 Month",
     pay: "$390",
     shopping: "E-mail",
-    img: "target_coin_1.png",
+    img: "target_Coin_1.png",
     url: "list/1",
   },
   {
@@ -190,7 +190,7 @@ export const coinList = [
     month: "3 Months",
     pay: "$1,150",
     shopping: "E-mail",
-    img: "target_coin_2.png",
+    img: "target_Coin_2.png",
     url: "list/2",
   },
   {
@@ -199,7 +199,7 @@ export const coinList = [
     month: "6 Months",
     pay: "$2,290",
     shopping: "E-mail",
-    img: "target_coin_3.png",
+    img: "target_Coin_3.png",
     url: "list/3",
   },
   {
@@ -208,7 +208,7 @@ export const coinList = [
     month: "12 Months",
     pay: "$4,555",
     shopping: "E-mail",
-    img: "target_coin_4.png",
+    img: "target_Coin_4.png",
     url: "list/4",
   },
 ];
@@ -220,7 +220,7 @@ export const stockList = [
     month: "1 Month",
     pay: "$390",
     shopping: "E-mail",
-    img: "target_stock_1.png",
+    img: "target_Stock_1.png",
     url: "list/1",
   },
   {
@@ -229,7 +229,7 @@ export const stockList = [
     month: "3 Months",
     pay: "$1,150",
     shopping: "E-mail",
-    img: "target_stock_2.png",
+    img: "target_Stock_2.png",
     url: "list/2",
   },
   {
@@ -238,7 +238,7 @@ export const stockList = [
     month: "6 Months",
     pay: "$2,290",
     shopping: "E-mail",
-    img: "target_stock_3.png",
+    img: "target_Stock_3.png",
     url: "list/3",
   },
   {
@@ -247,7 +247,7 @@ export const stockList = [
     month: "12 Months",
     pay: "$4,555",
     shopping: "E-mail",
-    img: "target_stock_4.png",
+    img: "target_Stock_4.png",
     url: "list/4",
   },
 ];
@@ -259,7 +259,7 @@ export const lectureList = [
     month: "1 Month",
     pay: "$230 ",
     shopping: "E-mail",
-    img: "target_edu_1.png",
+    img: "target_Edu_1.png",
     url: "list/1",
   },
   {
@@ -268,7 +268,7 @@ export const lectureList = [
     month: "3 Months",
     pay: "$690 ",
     shopping: "E-mail",
-    img: "target_edu_2.png",
+    img: "target_Edu_2.png",
     url: "list/2",
   },
   {
@@ -277,7 +277,7 @@ export const lectureList = [
     month: "6 Months",
     pay: "$1,370 ",
     shopping: "E-mail",
-    img: "target_edu_3.png",
+    img: "target_Edu_3.png",
     url: "list/3",
   },
   {
@@ -286,7 +286,7 @@ export const lectureList = [
     month: "12 Months",
     pay: "$2,730 ",
     shopping: "E-mail",
-    img: "target_edu_4.png",
+    img: "target_Edu_4.png",
     url: "list/4",
   },
 ];
@@ -299,7 +299,7 @@ export const leadingList = [
     month: "1 Month",
     pay: "$532",
     shopping: "E-mail",
-    img: "target_leading_1.png",
+    img: "target_Leading_1.png",
     url: "list/1",
   },
   {
@@ -309,7 +309,7 @@ export const leadingList = [
     month: "3 Months",
     pay: "$1,592",
     shopping: "E-mail",
-    img: "target_leading_2.png",
+    img: "target_Leading_2.png",
     url: "list/2",
   },
   {
@@ -319,7 +319,7 @@ export const leadingList = [
     month: "6 Months",
     pay: "$3,185",
     shopping: "E-mail",
-    img: "target_leading_3.png",
+    img: "target_Leading_3.png",
     url: "list/3",
   },
   {
@@ -329,7 +329,7 @@ export const leadingList = [
     month: "12 Months",
     pay: "$6,365",
     shopping: "E-mail",
-    img: "target_leading_4.png",
+    img: "target_Leading_4.png",
     url: "list/4",
   },
 ];
