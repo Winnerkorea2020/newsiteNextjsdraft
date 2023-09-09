@@ -1,6 +1,7 @@
 import React from "react";
 
 import { lectureEducation } from "@/constant";
+import Alert from "./Alert";
 
 const LectureEdu = () => {
   const list = lectureEducation[0].items;
@@ -24,13 +25,21 @@ const LectureEdu = () => {
             주식 투자매매에 대한 교육 서비스
           </h3>
           <p className="text-base font-medium leading-relaxed text-body-color">
-            주식 투자매매에 대한 교육 서비스는 초보자부터 경험이 많은 투자자까지 다양한 수준의 투자자들에게 유용한
-            지식과 도구를 제공합니다. 여기에는 여러 예시가 포함될 수 있습니다. <br />
-            <strong> 입회한 회원들에게는 ty-play에서 제공하는 서적과 자료들을 제공합니다.</strong>
+            주식 투자매매에 대한 교육 서비스는 초보자부터 경험이 많은 투자자까지
+            다양한 수준의 투자자들에게 유용한 지식과 도구를 제공합니다. 여기에는
+            여러 예시가 포함될 수 있습니다. <br />
+            <strong>
+              {" "}
+              입회한 회원들에게는 ty-play에서 제공하는 서적과 자료들을
+              제공합니다.
+            </strong>
           </p>
           <div className="grid gird-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-6">
             {list.map((items, index) => (
-              <div className="flex flex-col items-center border rounded-lg p-5 shadow-lg shadow-gray-100" key={index}>
+              <div
+                className="flex flex-col items-center border rounded-lg p-5 shadow-lg shadow-gray-100"
+                key={index}
+              >
                 <div className="font-bold my-5 h-12 w-12 bg-gray-500 text-white rounded-full flex items-center justify-center">
                   {items.id}
                 </div>
@@ -38,7 +47,9 @@ const LectureEdu = () => {
                   <h3 className="mb-5 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
                     {items.title}
                   </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color">{items.description}</p>
+                  <p className="text-base font-medium leading-relaxed text-body-color">
+                    {items.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -52,11 +63,16 @@ const LectureEdu = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {lectureEdu.map((edulist, index) => (
             <div className="p-6 ">
-              <img src={edulist.img} className=" h-56 w-full object-cover object-center border rounded-lg shadow-lg" />
+              <img
+                src={edulist.img}
+                className=" h-56 w-full object-cover object-center border rounded-lg shadow-lg"
+              />
               <h4 className="text-center my-6 tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
                 {edulist.title}
               </h4>
-              <p className=" tracking-tighter text-gray-500 text-center">{edulist.description}</p>
+              <p className=" tracking-tighter text-gray-500 text-center">
+                {edulist.description}
+              </p>
             </div>
           ))}
         </div>
@@ -72,7 +88,9 @@ const LectureEdu = () => {
         <h4 className="text-center my-6 tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
           {communicate[0].title}
         </h4>
-        <p className="text-base font-medium leading-relaxed text-body-color">{communicate[0].description1}</p>
+        <p className="text-base font-medium leading-relaxed text-body-color">
+          {communicate[0].description1}
+        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-6">
           <img
@@ -83,7 +101,9 @@ const LectureEdu = () => {
             <h4 className="text-center  tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
               {communicate[0].title2}
             </h4>
-            <p className=" my-6 text-base font-medium leading-relaxed text-body-color">{communicate[0].description2}</p>
+            <p className=" my-6 text-base font-medium leading-relaxed text-body-color">
+              {communicate[0].description2}
+            </p>
           </div>
         </div>
       </div>
@@ -93,13 +113,18 @@ const LectureEdu = () => {
         </h3>
         <div className="grid gird-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-6">
           {library.map((items, index) => (
-            <div className="flex flex-col items-center border rounded-lg  shadow-lg shadow-gray-100" key={index}>
+            <div
+              className="flex flex-col items-center border rounded-lg  shadow-lg shadow-gray-100"
+              key={index}
+            >
               <img className=" w-full h-60 rounded-t" src={items.img} />
               <div className="flex flex-col justify-center items-center p-5">
                 <h4 className="my-6 text-center  tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
                   {items.title}
                 </h4>
-                <p className="text-base font-medium leading-relaxed text-body-color">{items.description}</p>
+                <p className="text-base font-medium leading-relaxed text-body-color">
+                  {items.description}
+                </p>
               </div>
             </div>
           ))}
@@ -117,19 +142,15 @@ const LectureEdu = () => {
                 <h4 className="my-6 text-center  tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
                   {items.title}
                 </h4>
-                <p className="text-base font-medium leading-relaxed text-body-color">{items.description}</p>
+                <p className="text-base font-medium leading-relaxed text-body-color">
+                  {items.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <div className="my-6">
-        <h3 className="py-3 text-red-600 font-semibold">※ 경고 및 주의사항</h3>
-        <div className="p-6 border border-red-600 font-medium text-red-600 rounded-lg">
-          모든 투자에는 위험이 있으며, 자금을 잃을 가능성이 있다는 것을 인식해야 합니다. 본 사이트에서 제공하는 모든
-          정보는 투자판단의 참고자료이며, 서비스 이용에 따른 투자의 최종 책임은 이용자 본인에게 있습니다.
-        </div>
-      </div>
+      <Alert />
     </div>
   );
 };
