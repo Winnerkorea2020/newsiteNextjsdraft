@@ -7,6 +7,10 @@ export const navLinks = [
         url: "/lecture",
       },
       {
+        title: "Educational services ",
+        url: "/lecture/lectureEducation",
+      },
+      {
         title: "Lecture List",
         url: "/lecture/list",
       },
@@ -20,30 +24,38 @@ export const navLinks = [
         url: "/stock",
       },
       {
+        title: "Stock program ",
+        url: "/stock/stockProgram",
+      },
+      {
         title: "Stock List",
         url: "/stock/list",
       },
     ],
   },
-  {
-    category: "Coin",
-    items: [
-      {
-        title: "About coin",
-        url: "/coin",
-      },
-      {
-        title: "Coin List",
-        url: "/coin/list",
-      },
-    ],
-  },
+  // {
+  //   category: "Coin",
+  //   items: [
+  //     {
+  //       title: "About coin",
+  //       url: "/coin",
+  //     },
+  //     {
+  //       title: "Coin List",
+  //       url: "/coin/list",
+  //     },
+  //   ],
+  // },
   {
     category: "leading",
     items: [
       {
         title: "About leading",
         url: "/leading",
+      },
+      {
+        title: "Reading service ",
+        url: "/lecture/leadingEducation",
       },
       {
         title: "Leading List",

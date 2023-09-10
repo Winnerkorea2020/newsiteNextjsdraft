@@ -1,9 +1,9 @@
-import LectureEdu from "@/components/LectureEdu";
+import StockEdu from "@/components/StockEdu";
 
 const page = () => {
   return (
     <div>
-      <LectureEdu />
+      <StockEdu />
     </div>
   );
 };
