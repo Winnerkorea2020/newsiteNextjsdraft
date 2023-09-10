@@ -17,7 +17,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="mr-4 hover:underline md:mr-6">
+              <Link href="/policy" className="mr-4 hover:underline md:mr-6">
                 Privacy Policy
               </Link>
             </li>
