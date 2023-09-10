@@ -54,8 +54,8 @@ export const navLinks = [
         url: "/leading",
       },
       {
-        title: "Reading service ",
-        url: "/lecture/leadingEducation",
+        title: "leading service ",
+        url: "/leading/leadingService",
       },
       {
         title: "Leading List",
