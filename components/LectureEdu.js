@@ -1,6 +1,7 @@
 import React from "react";
 
 import { lectureEducation } from "@/constant";
+import Image from "next/image";
 import Alert from "./Alert";
 
 const LectureEdu = () => {
@@ -16,10 +17,13 @@ const LectureEdu = () => {
           Educational services on investment trading
         </h1>
         <div>
-          <img
-            className="w-full h-[750px] object-center object-cover"
-            src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
-          ></img>
+          <div className="w-full h-[750px] relative">
+            <Image
+              className=" object-center object-cover"
+              src="/8.png"
+              fill
+            ></Image>
+          </div>
 
           <h3 className="my-6 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
             주식 투자매매에 대한 교육 서비스
@@ -29,7 +33,6 @@ const LectureEdu = () => {
             다양한 수준의 투자자들에게 유용한 지식과 도구를 제공합니다. 여기에는
             여러 예시가 포함될 수 있습니다. <br />
             <strong>
-              {" "}
               입회한 회원들에게는 ty-play에서 제공하는 서적과 자료들을
               제공합니다.
             </strong>
@@ -37,7 +40,7 @@ const LectureEdu = () => {
           <div className="grid gird-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-6">
             {list.map((items, index) => (
               <div
-                className="flex flex-col items-center border rounded-lg p-5 shadow-lg shadow-gray-100"
+                className="flex flex-col items-center bg-gray-200  border rounded-lg p-5 shadow-lg shadow-gray-100"
                 key={index}
               >
                 <div className="font-bold my-5 h-12 w-12 bg-gray-500 text-white rounded-full flex items-center justify-center">
@@ -63,10 +66,13 @@ const LectureEdu = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {lectureEdu.map((edulist, index) => (
             <div className="p-6 ">
-              <img
-                src={edulist.img}
-                className=" h-56 w-full object-cover object-center border rounded-lg shadow-lg"
-              />
+              <div className="relative h-56 w-full">
+                <Image
+                  src={`/${edulist.img}`}
+                  fill
+                  className=" h-56 w-full object-cover object-center border rounded-lg shadow-lg"
+                />
+              </div>
               <h4 className="text-center my-6 tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
                 {edulist.title}
               </h4>
@@ -92,11 +98,14 @@ const LectureEdu = () => {
           {communicate[0].description1}
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-6">
-          <img
-            className=" col-span-2  border rounded-lg shadow-md"
-            src="https://plus.unsplash.com/premium_photo-1664378616928-dc6842677183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-          />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
+          <div className="relative h-[350px] col-span-1 border rounded-lg shadow-md">
+            <Image
+              className="border rounded-lg shadow-md object-cover object-center"
+              src="/7.jpeg"
+              fill
+            />
+          </div>
           <div className="items-start">
             <h4 className="text-center  tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
               {communicate[0].title2}
@@ -117,7 +126,13 @@ const LectureEdu = () => {
               className="flex flex-col items-center border rounded-lg  shadow-lg shadow-gray-100"
               key={index}
             >
-              <img className=" w-full h-60 rounded-t" src={items.img} />
+              <div className="h-60 w-full relative rounded-t">
+                <Image
+                  className=" w-full h-60 rounded-t"
+                  src={`/${items.img}`}
+                  fill
+                />
+              </div>
               <div className="flex flex-col justify-center items-center p-5">
                 <h4 className="my-6 text-center  tracking-tighter text-base font-semibold text-gray-700 sm:text-xl lg:text-lg xl:text-xl">
                   {items.title}

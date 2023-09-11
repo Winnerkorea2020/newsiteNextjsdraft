@@ -501,19 +501,19 @@ export const lectureEducation = [
         title: "실시간 트레이딩 워크샵",
         description:
           "라이브 시장 분석: 전문가들이 실시간으로 시장을 분석하며, 현재 시장 상황에 대한 통찰력을 제공하는 세션을 개최합니다.",
-        img: "https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+        img: "4.jpg",
       },
       {
         title: "실전 트레이딩 시뮬레이터",
         description:
           "라이브 시장 분석: 전문가들이 실시간으로 시장을 분석하며, 현재 시장 상황에 대한 통찰력을 제공하는 세션을 개최합니다.",
-        img: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+        img: "5.png",
       },
       {
         title: "케이스 스터디",
         description:
           "라이브 시장 분석: 전문가들이 실시간으로 시장을 분석하며, 현재 시장 상황에 대한 통찰력을 제공하는 세션을 개최합니다.",
-        img: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80",
+        img: "6.jpg",
       },
     ],
     communicate: [
@@ -530,19 +530,19 @@ export const lectureEducation = [
     library: [
       {
         title: "데이터베이스 접근 ",
-        img: "https://images.unsplash.com/photo-1648459776041-cbeab708f17b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGRhdGFiYXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        img: "1.jpg",
         description:
           "주요 금융 데이터베이스에 접근할 수 있는 권한을 제공하여, 투자자들이 직접 데이터를 분석할 수 있도록 합니다.",
       },
       {
         title: "리서치 리포트",
-        img: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80",
+        img: "2.png",
         description:
           "시장 분석, 자산 분석, 트렌드 보고서 등 다양한 리서치 리포트를 제공합니다.",
       },
       {
         title: "도구 및 소프트웨어",
-        img: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        img: "3.jpg",
         description:
           "투자자들이 사용할 수 있는 투자 도구 및 소프트웨어를 제공합니다.",
       },
@@ -579,7 +579,8 @@ export const StockEducation = [
           "정의: 이동 평균선은 특정 기간 동안의 평균 가격을 나타내는 지표로, 가격의 전반적인 트렌드를 식별하는데 사용됩니다.",
         description2:
           "활용: 단기 이동 평균선이 장기 이동 평균선을 넘어서면 상승 신호로, 그 반대의 경우에는 하락 신호로 해석할 수 있습니다.",
-        img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+        img1: "/8.png",
+        img2: "/9.png",
       },
       {
         title: "Bollinger Bands",
@@ -587,7 +588,8 @@ export const StockEducation = [
           "정의: 이 지표는 이동 평균선과 표준 편차를 기반으로 하며, 주가의 변동성을 측정합니다.",
         description2:
           "활용: 주가가 밴드의 상단을 넘어서면 과매수 상태, 하단을 넘어서면 과매도 상태로 판단합니다.",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        img1: "/10.png",
+        img2: "/11.png",
       },
       {
         title: "MACD (Moving Average Convergence Divergence)",
@@ -595,7 +597,8 @@ export const StockEducation = [
           "정의: MACD는 두 개의 이동 평균선(단기 및 장기)의 차이를 통해 추세의 강도와 방향을 평가합니다.",
         description2:
           "활용: MACD 라인이 신호 라인을 상향 돌파하면 매수 신호로, 하향 돌파하면 매도 신호로 해석합니다.",
-        img: "https://ungeracademy.com/assets/01-plot-grafico-e-formula-indicatore-MACD-small.png",
+        img1: "/12.png",
+        img2: "/14.png",
       },
       {
         title: "RSI (Relative Strength Index)",
@@ -603,7 +606,8 @@ export const StockEducation = [
           "정의: RSI는 특정 기간 동안의 주가 상승률과 하락률을 비교하여 과매수 또는 과매도 상태를 판단하는 지표입니다.",
         description2:
           "활용: RSI 값이 70을 초과하면 과매수, 30 미만이면 과매도 상태로 판단합니다.",
-        img: "https://tradesmartonline.in/tradeshaala/wp-content/uploads/2022/12/RSI-%E2%80%93-Relative-Strength-Index-is-a-potent-indicator.png",
+        img1: "/15.png",
+        img2: "/16.png",
       },
       {
         title: "캔들스틱 패턴",
@@ -611,7 +615,8 @@ export const StockEducation = [
           "정의: 캔들스틱 차트는 각 캔들이 특정 시간 동안의 가격 움직임을 나타냅니다.",
         description2:
           "활용: 특정 캔들스틱 패턴(예: 도지, 해머)을 통해 시장 반전 또는 지속 가능성을 예측합니다.",
-        img: "https://1388952911-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Mgcz9Artp06YSW0R20z%2Fuploads%2F36iJuBd2wO90LzwZYi7X%2Fphoto_2021-05-23_18-33-48.jpg?alt=media&token=df5db5a9-1109-4a3e-bafe-46928734a10a",
+        img1: "https://1388952911-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Mgcz9Artp06YSW0R20z%2Fuploads%2F36iJuBd2wO90LzwZYi7X%2Fphoto_2021-05-23_18-33-48.jpg?alt=media&token=df5db5a9-1109-4a3e-bafe-46928734a10a",
+        img2: "https://1388952911-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-Mgcz9Artp06YSW0R20z%2F-Mgd2GI-aH8tdmNMvo9S%2F-Mgd3qollzvRr4MIVian%2F1.png?alt=media&token=e4c87231-0261-40d9-a332-4b9ec6c96b0d",
       },
       {
         title: "트렌드 및 지지/저항선",
@@ -619,7 +624,8 @@ export const StockEducation = [
           "정의: 트렌드선은 주가 차트에서 일련의 최저점 또는 최고점을 연결하여 현재의 가격 추세를 나타냅니다.",
         description2:
           "활용: 트렌드선 돌파는 트렌드의 변화를 나타낼 수 있으며, 투자자들은 이를 통해 매수 또는 매도 결정을 내릴 수 있습니다.",
-        img: "https://images.ddengle.com/files/attach/images/894001/769/264/014/0f2a2f57a38aeba7029c0386957fb0c3.jpg",
+        img1: "https://images.ddengle.com/files/attach/images/894001/769/264/014/0f2a2f57a38aeba7029c0386957fb0c3.jpg",
+        img2: "https://storage.cobak.co/uploads/1584586803589045_7a28d51898.png",
       },
       {
         title: "지지선 및 저항선",
@@ -627,7 +633,8 @@ export const StockEducation = [
           "정의: 지지선은 주가가 어려움 없이 떨어지기 힘든 레벨을, 저항선은 주가가 어려움 없이 상승하기 힘든 레벨을 나타냅니다.",
         description2:
           "활용: 이러한 레벨들은 시장 참여자들의 심리적 반응을 나타내며, 돌파 시 강력한 매수 또는 매도 신호로 작용할 수 있습니다.",
-        img: "http://coinpick.com/files/attach/images/136316/317/136/c279f6158f2cba0eab0a69ae8987536a.PNG",
+        img1: "/updown.PNG",
+        img2: "/down1.png",
       },
     ],
   },
@@ -640,7 +647,8 @@ export const StockEducation = [
           "정의: 재무제표 분석은 기업의 재무 상태와 수익성을 평가하는 과정입니다.",
         description2:
           "활용: 재무제표를 통해 기업의 성장성, 수익성, 안정성 등을 평가하고, 이를 투자 결정에 반영합니다.",
-        img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+        img1: "/17.jpg",
+        img2: "https://platum.kr/wp-content/uploads/2016/11/the-detail-report-provides_57af2af587ecc-700x466.gif",
       },
       {
         title: "경제 지표",
@@ -648,7 +656,8 @@ export const StockEducation = [
           "정의: 경제 지표는 국가의 경제 건전성을 평가하는 다양한 통계자료입니다.",
         description2:
           "활용: 경제 지표를 통해 전반적인 경제 상황을 파악하고, 이에 따른 시장 반응을 예측합니다.",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        img1: "/19.png",
+        img2: "/20.png",
       },
       {
         title: "기업 뉴스 및 이벤트",
@@ -656,7 +665,8 @@ export const StockEducation = [
           "정의: 기업 뉴스 및 이벤트는 기업의 운영 또는 재무 상태에 영향을 미치는 주요 사건들을 나타냅니다.",
         description2:
           "활용: 뉴스 및 이벤트를 통해 기업의 가치 변동을 예측하고, 투자 전략을 조정합니다.",
-        img: "https://www.fxcorporate.com/help/MS/NOTFIFO/IMG/IndicatorDescriptions/MACD_Indicator.png",
+        img1: "/21.jpg",
+        img2: "/22.jpg",
       },
     ],
   },
@@ -668,7 +678,8 @@ export const StockEducation = [
           "정의: 거래량 분석은 주식의 거래량 변화를 통해 시장의 강도나 약점을 평가하는 방법입니다.",
         description2:
           "활용: 높은 거래량은 강력한 추세를 나타내며, 거래량과 가격 움직임 사이의 불일치는 잠재적인 반전 신호로 볼 수 있습니다.",
-        img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+        img1: "/23.png",
+        img2: "/24.png",
       },
       {
         title: "시장 센티멘트",
@@ -676,7 +687,8 @@ export const StockEducation = [
           "정의: 시장 센티멘트 분석은 시장 참가자들의 감정과 태도를 분석하여 시장의 방향을 예측하는 방법입니다.",
         description2:
           "활용: 투자자 센티멘트 지표, 뉴스, 소셜 미디어 트렌드 등을 분석하여 시장의 미래 움직임을 예측합니다.",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        img1: "/25.png",
+        img2: "/26.png",
       },
       {
         title: "뉴스 및 소셜 미디어 분석",
@@ -684,7 +696,8 @@ export const StockEducation = [
           "정의: 현대의 투자 환경에서 뉴스와 소셜 미디어의 영향은 무시할 수 없으며, 이러한 플랫폼에서의 정보 흐름과 트렌드 분석은 중요합니다.",
         description2:
           "활용: 실시간 뉴스 업데이트와 소셜 미디어에서의 트렌드 분석을 통해 시장 반응과 투자자 센티멘트를 평가합니다.",
-        img: "https://www.fxcorporate.com/help/MS/NOTFIFO/IMG/IndicatorDescriptions/MACD_Indicator.png",
+        img1: "https://file.mk.co.kr/meet/neds/2022/05/image_readbot_2022_475464_16538745625059215.jpg",
+        img2: "https://file.mk.co.kr/meet/neds/2022/05/image_readbot_2022_475464_16538745625059216.jpg",
       },
     ],
   },
@@ -696,7 +709,8 @@ export const StockEducation = [
           "정의: 각 투자자의 위험 허용 범위는 개인의 투자 목표와 금융 상태에 따라 다르며, 이는 투자 전략을 결정하는 중요한 요소입니다.",
         description2:
           "활용: 개인의 위험 허용 범위에 따라 적절한 포트폴리오를 구성하고, 손실 한도를 설정합니다.",
-        img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+        img1: "/29.jpg",
+        img2: "/30.jpg",
       },
       {
         title: "손절 및 이익 실현 전략",
@@ -704,7 +718,8 @@ export const StockEducation = [
           "정의: 시장의 변동성에 대비하여 손절 및 이익 실현 전략을 세우는 것은 투자의 중요한 부분입니다.",
         description2:
           "활용: 손절 레벨과 이익 실현 레벨을 설정하여, 시장의 불확실성에 따른 큰 손실을 방지하고 이익을 극대화합니다. 이러한 분석 방법들은 시간이 있다면 모든 투자자들도 할 수 있습니다. 하지만 시간이 오래 걸리고 빠른 분석이 필요로 합니다. 서로 보완적으로 작용하여 투자자가 시장을 더욱 정확하게 이해하고, 유익한 투자 결정을 내릴 수 있도록 프로그램이 투자자를 돕습니다. 또한 중요한 것은 여러 다양한 분석 도구와 전략을 활용하여 최소한의 시간으로 시장을 분석하여 대입하고 활용할 수 있으며, 이를 통해 더욱 견고하고 성공적인 투자 전략을 구축할 수 있습니다.",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        img1: "/31.png",
+        img2: "/32.jpg",
       },
     ],
   },
@@ -719,7 +734,8 @@ export const StockEducation = [
             "단 모든 거래는 회원님의 동의하에 진행되기 때문에 매일 로그인 및 본인 인증을 하셔야 합니다.",
           description3:
             "리스크 관리: 총 자본금 대비 포지션의 리스크를 설정하고, 손실을 방지하기 위한 기능이 있습니다.",
-          img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+          img1: "/33.png",
+          img2: "/34.jpg",
         },
       ],
       Feature: [
@@ -735,7 +751,8 @@ export const StockEducation = [
           description4:
             "감정 제거: 알고리즘이 정의된 규칙에 따라 거래를 수행하기 때문에 감정이 거래에 영향을 미치지 않습니다.",
 
-          img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+          img1: "/35.jpg",
+          img2: "/36.png",
         },
       ],
       Install: [
@@ -746,7 +763,8 @@ export const StockEducation = [
           description2:
             "API 연결: 거래소의 API를 프로그램에 연결합니다. 이를 통해 프로그램은 거래소와 통신할 수 있습니다. 전략 설정: 사용자는 거래 전략을 설정해야 합니다. 이는 기술적 분석 지표, 시그널, 리스크 관리 규칙 등을 포함할 수 있습니다. 거래 또는 설치방법을 모르는 경우에는 고객센터로 연락주시면 상세하게 설명 또는 회원님의 설치를 위해 원격서비스를 진행하겠습니다.: 프로그램은 사람보다 훨씬 빠르게 거래를 실행할 수 있습니다.",
 
-          img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+          img1: "/37.png",
+          img2: "/38.jpg",
         },
       ],
       TradingMainTain: [
@@ -757,7 +775,8 @@ export const StockEducation = [
           description2:
             "모니터링 및 조정: 프로그램의 성능을 모니터링하고 필요에 따라 전략을 조정합니다",
 
-          img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+          img1: "/39.png",
+          img2: "/40.png",
         },
         {
           title: "유지보수",
@@ -766,7 +785,8 @@ export const StockEducation = [
           description2:
             "리스크 관리: 프로그램의 리스크 관리 기능을 이용하여 포지션과 자금을 안전하게 관리합니다.",
 
-          img: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80",
+          img1: "/41.png",
+          img2: "/42.png",
         },
       ],
     },

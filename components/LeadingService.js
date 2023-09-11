@@ -52,7 +52,7 @@ const LeadingService = () => {
             <SwiperSlide>
               <div className="relative w-full h-full">
                 <div className="h-full">
-                  <div className="border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
+                  <div className=" border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
                     <h3 className="mb-6 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
                       실습 및 경험
                     </h3>
@@ -75,7 +75,7 @@ const LeadingService = () => {
             <SwiperSlide>
               <div className="relative w-full h-full">
                 <div className="h-full">
-                  <div className="border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
+                  <div className=" border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
                     <h3 className="mb-6 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
                       지식 및 교육
                     </h3>
@@ -98,7 +98,7 @@ const LeadingService = () => {
             <SwiperSlide>
               <div className="relative w-full h-full">
                 <div className="h-full">
-                  <div className="border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
+                  <div className=" border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
                     <h3 className="mb-6 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
                       분석 및 전략
                     </h3>
@@ -121,7 +121,7 @@ const LeadingService = () => {
             <SwiperSlide>
               <div className="relative w-full h-full">
                 <div className="h-full">
-                  <div className="border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
+                  <div className=" border border-gray-500 rounded-xl p-8 mt-6 h-[480px] sm:h-[410px] md:h-[780px] xl:h-[580px]">
                     <h3 className="mb-6 text-xl font-bold text-gray-700 sm:text-2xl lg:text-xl xl:text-2xl">
                       심리적 준비
                     </h3>

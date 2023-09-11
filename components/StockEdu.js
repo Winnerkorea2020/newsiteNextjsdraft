@@ -42,7 +42,16 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <img className="rounded-lg border w-full" src={items.img} />
+                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img1}`}
+                      />
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img2}`}
+                      />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -65,7 +74,16 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <img className="rounded-lg border w-full" src={items.img} />
+                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img1}`}
+                      />
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img2}`}
+                      />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -88,7 +106,24 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <img className="rounded-lg border w-full" src={items.img} />
+                    <div className="mt-3 tracking-tighter">
+                      <div className="py-2 px-1.5 text-gray-600">
+                        {items.description1}
+                      </div>
+                      <div className="py-2 px-1.5 text-gray-600">
+                        {items.description2}
+                      </div>
+                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img1}`}
+                        />
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img2}`}
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -111,7 +146,16 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <img className="rounded-lg border w-full" src={items.img} />
+                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img1}`}
+                      />
+                      <img
+                        className="rounded-lg border w-full h-full object-fill object-center"
+                        src={`${items.img2}`}
+                      />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -135,10 +179,16 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <img
-                        className="rounded-lg border w-full"
-                        src={items.img}
-                      />
+                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img1}`}
+                        />
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img2}`}
+                        />
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -156,10 +206,16 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <img
-                        className="rounded-lg border w-full"
-                        src={items.img}
-                      />
+                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img1}`}
+                        />
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img2}`}
+                        />
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -177,10 +233,16 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <img
-                        className="rounded-lg border w-full"
-                        src={items.img}
-                      />
+                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img1}`}
+                        />
+                        <img
+                          className="rounded-lg border w-full h-full object-fill object-center"
+                          src={`${items.img2}`}
+                        />
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -199,10 +261,16 @@ const StockEdu = () => {
                         <div className="py-2 px-1.5 text-gray-600">
                           {items.description2}
                         </div>
-                        <img
-                          className="rounded-lg border w-full"
-                          src={items.img}
-                        />
+                        <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                          <img
+                            className="rounded-lg border w-full h-full object-fill object-center"
+                            src={`${items.img1}`}
+                          />
+                          <img
+                            className="rounded-lg border w-full h-full object-fill object-center"
+                            src={`${items.img2}`}
+                          />
+                        </div>
                       </div>
                     </div>
                   )
