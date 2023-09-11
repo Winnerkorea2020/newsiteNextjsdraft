@@ -42,13 +42,13 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img1}`}
                       />
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img2}`}
                       />
                     </div>
@@ -74,13 +74,13 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img1}`}
                       />
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img2}`}
                       />
                     </div>
@@ -113,13 +113,13 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img1}`}
                         />
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img2}`}
                         />
                       </div>
@@ -146,13 +146,13 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img1}`}
                       />
                       <img
-                        className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                        className="rounded-lg border w-full  h-full object-fill object-center"
                         src={`${items.img2}`}
                       />
                     </div>
@@ -179,13 +179,13 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img1}`}
                         />
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img2}`}
                         />
                       </div>
@@ -206,13 +206,13 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img1}`}
                         />
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img2}`}
                         />
                       </div>
@@ -233,13 +233,13 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img1}`}
                         />
                         <img
-                          className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                          className="rounded-lg border w-full  h-full object-fill object-center"
                           src={`${items.img2}`}
                         />
                       </div>
@@ -261,13 +261,13 @@ const StockEdu = () => {
                         <div className="py-2 px-1.5 text-gray-600">
                           {items.description2}
                         </div>
-                        <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
+                        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 relative h-[430px] w-full">
                           <img
-                            className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                            className="rounded-lg border w-full  h-full object-fill object-center"
                             src={`${items.img1}`}
                           />
                           <img
-                            className="rounded-lg border w-full xl:w-1/2 h-full object-fill object-center"
+                            className="rounded-lg border w-full  h-full object-fill object-center"
                             src={`${items.img2}`}
                           />
                         </div>
