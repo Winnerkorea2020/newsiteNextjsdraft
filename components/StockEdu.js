@@ -32,7 +32,7 @@ const StockEdu = () => {
             <div className="grid grid-cols-1 gap-10">
               {StockEducation[0].Tech.map((items, index) => (
                 <div>
-                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                     {items.title}
                   </div>
                   <div className="mt-3 tracking-tighter">
@@ -42,7 +42,7 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                       <img
                         className="rounded-lg border w-full h-full object-fill object-center"
                         src={`${items.img1}`}
@@ -64,7 +64,7 @@ const StockEdu = () => {
             <div className="grid grid-cols-1 gap-10">
               {StockEducation[1].Fundamental.map((items, index) => (
                 <div>
-                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                     {items.title}
                   </div>
                   <div className="mt-3 tracking-tighter">
@@ -74,7 +74,7 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                       <img
                         className="rounded-lg border w-full h-full object-fill object-center"
                         src={`${items.img1}`}
@@ -96,7 +96,7 @@ const StockEdu = () => {
             <div className="grid grid-cols-1 gap-10">
               {StockEducation[2].Market.map((items, index) => (
                 <div>
-                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                     {items.title}
                   </div>
                   <div className="mt-3 tracking-tighter">
@@ -113,7 +113,7 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                         <img
                           className="rounded-lg border w-full h-full object-fill object-center"
                           src={`${items.img1}`}
@@ -136,7 +136,7 @@ const StockEdu = () => {
             <div className="grid grid-cols-1 gap-10">
               {StockEducation[3].Risk.map((items, index) => (
                 <div>
-                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                  <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                     {items.title}
                   </div>
                   <div className="mt-3 tracking-tighter">
@@ -146,7 +146,7 @@ const StockEdu = () => {
                     <div className="py-2 px-1.5 text-gray-600">
                       {items.description2}
                     </div>
-                    <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                    <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                       <img
                         className="rounded-lg border w-full h-full object-fill object-center"
                         src={`${items.img1}`}
@@ -169,7 +169,7 @@ const StockEdu = () => {
               <div className="grid grid-cols-1 gap-10">
                 {StockEducation[4].Programing.Run.map((items, index) => (
                   <div>
-                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                       {items.title}
                     </div>
                     <div className="mt-3 tracking-tighter">
@@ -179,7 +179,7 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                         <img
                           className="rounded-lg border w-full h-full object-fill object-center"
                           src={`${items.img1}`}
@@ -196,7 +196,7 @@ const StockEdu = () => {
               <div className="grid grid-cols-1 gap-10">
                 {StockEducation[4].Programing.Feature.map((items, index) => (
                   <div>
-                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                       {items.title}
                     </div>
                     <div className="mt-3 tracking-tighter">
@@ -206,7 +206,7 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                         <img
                           className="rounded-lg border w-full h-full object-fill object-center"
                           src={`${items.img1}`}
@@ -223,7 +223,7 @@ const StockEdu = () => {
               <div className="grid grid-cols-1 gap-10">
                 {StockEducation[4].Programing.Install.map((items, index) => (
                   <div>
-                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                    <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                       {items.title}
                     </div>
                     <div className="mt-3 tracking-tighter">
@@ -233,7 +233,7 @@ const StockEdu = () => {
                       <div className="py-2 px-1.5 text-gray-600">
                         {items.description2}
                       </div>
-                      <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                      <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                         <img
                           className="rounded-lg border w-full h-full object-fill object-center"
                           src={`${items.img1}`}
@@ -251,7 +251,7 @@ const StockEdu = () => {
                 {StockEducation[4].Programing.TradingMainTain.map(
                   (items, index) => (
                     <div>
-                      <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-[425px] shadow border-gray-600">
+                      <div className="px-6 py-2 bg-gray-500 font-medium rounded-xl text-white text-center w-fit xl:w-[425px] shadow border-gray-600">
                         {items.title}
                       </div>
                       <div className="mt-3 tracking-tighter">
@@ -261,7 +261,7 @@ const StockEdu = () => {
                         <div className="py-2 px-1.5 text-gray-600">
                           {items.description2}
                         </div>
-                        <div className="flex justify-between items-center gap-3 relative h-[430px] w-full">
+                        <div className="flex flex-col xl:flex-row justify-between items-center gap-3 relative h-[430px] w-full">
                           <img
                             className="rounded-lg border w-full h-full object-fill object-center"
                             src={`${items.img1}`}
